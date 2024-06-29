@@ -1,0 +1,47 @@
+.content{
+        overflow: hidden;
+        height:400px;
+}
+.ikonica{
+    color:$glavnaboja;
+    width: 80px;
+    height:80px;
+    box-shadow: 0 0 0 3px $glavnaboja;
+    transition: 0.5s ease-in-out;
+    &:hover{
+        box-shadow: 0 0 0 300px $glavnaboja;
+        border-radius: 20%;
+    }
+}
+.ikonica2{
+    color:$cetvrtaboja;
+    width: 80px;
+    height:80px;
+    box-shadow: 0 0 0 3px $cetvrtaboja;
+    transition: 0.5s ease-in-out;
+    &:hover{
+        box-shadow: 0 0 0 300px $cetvrtaboja;
+        border-radius: 20%;
+    }
+}
+.poz{
+    background: url('../../img/poz1.jpg') !important;
+    background-size: cover !important;
+}
+.poz1{
+    background: rgba(0, 0, 0, 0.4) !important;
+}
+.gallery{
+    filter: brightness(0.8);
+    &:hover{
+        filter: brightness(1);
+        transform: scale(1.05);
+        transition: 0.3s all;
+        border-radius: 1%;
+    }
+}
+.accordion-button{
+    &:focus{
+        box-shadow:0px 0px 1px $glavnaboja !important;
+    }
+}

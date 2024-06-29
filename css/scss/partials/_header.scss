@@ -1,0 +1,42 @@
+header{
+    nav{
+        font-family: "Rampart One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+}
+.heder{
+    .prva{
+        color:#fff;
+        transition: all 0.5s;
+        &:hover{
+            color:$glavnaboja;
+        }
+    }
+    .druga{
+        color:#fff;
+        transition: all 0.5s;
+        &:hover{
+            color:$cetvrtaboja;
+        }
+    }
+}
+button.carousel-control-prev, button.carousel-control-next{
+    height:100px;
+    top:45%;
+}
+.logonaslov{
+    font-family: "Rampart One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    span{
+        color:#fff;
+        transition: all 0.5s;
+        &:hover{
+            color:white;
+        }
+    }
+}
+.lele{
+    width:100px !important;
+}

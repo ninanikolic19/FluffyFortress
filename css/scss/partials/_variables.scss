@@ -1,0 +1,40 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+$glavnaboja:#b27092;
+$drugaboja:#f4ebd3;
+$trecaboja:#462749;
+$cetvrtaboja:#FFAB6B;
+body{
+    background: $drugaboja;
+}
+#wrap{
+    background: url('../../img/back.jpg');
+    background-attachment:fixed;
+    opacity: 0.94;
+    background-position:center;
+    font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
+}
+textarea{
+    resize:none !important;
+}
+main{
+    background-color: $cetvrtaboja;
+}
+.wallpaper{
+    filter:brightness(0.5);
+}
+.modal-backdrop {
+    z-index: -1 !important;
+}
+span{
+    color:$glavnaboja;
+}
+span1{
+    color:$cetvrtaboja;
+}

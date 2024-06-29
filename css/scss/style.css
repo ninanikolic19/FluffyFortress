@@ -1,0 +1,192 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4ebd3;
+}
+
+#wrap {
+  background: url("../../img/back.jpg");
+  background-attachment: fixed;
+  opacity: 0.94;
+  background-position: center;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
+}
+
+textarea {
+  resize: none !important;
+}
+
+main {
+  background-color: #FFAB6B;
+}
+
+.wallpaper {
+  filter: brightness(0.5);
+}
+
+.modal-backdrop {
+  z-index: -1 !important;
+}
+
+span {
+  color: #b27092;
+}
+
+span1 {
+  color: #FFAB6B;
+}
+
+header nav {
+  font-family: "Rampart One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.heder .prva {
+  color: #fff;
+  transition: all 0.5s;
+}
+.heder .prva:hover {
+  color: #b27092;
+}
+.heder .druga {
+  color: #fff;
+  transition: all 0.5s;
+}
+.heder .druga:hover {
+  color: #FFAB6B;
+}
+
+button.carousel-control-prev, button.carousel-control-next {
+  height: 100px;
+  top: 45%;
+}
+
+.logonaslov {
+  font-family: "Rampart One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.logonaslov span {
+  color: #fff;
+  transition: all 0.5s;
+}
+.logonaslov span:hover {
+  color: white;
+}
+
+.lele {
+  width: 100px !important;
+}
+
+.naslov {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #b27092;
+}
+
+.naslov2 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #FFAB6B;
+}
+
+.lin {
+  background: linear-gradient(240deg, rgb(178, 112, 146), rgb(255, 144, 165), rgb(255, 171, 107));
+  color: transparent;
+  display: inline-block;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.haver {
+  color: #b27092 !important;
+}
+
+.haver1 {
+  color: #FFAB6B !important;
+}
+
+.pozadina {
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  background-image: linear-gradient(60deg, rgba(255, 171, 107, 0.7), rgba(255, 144, 165, 0.7), rgba(70, 39, 73, 0.7));
+}
+
+.pozadina2 {
+  background-image: linear-gradient(240deg, rgb(178, 112, 146), rgb(255, 144, 165), rgb(255, 171, 107));
+}
+
+.pozadina3 {
+  background-image: linear-gradient(300deg, rgb(178, 112, 146), rgb(255, 144, 165), rgb(255, 171, 107));
+}
+
+.content {
+  overflow: hidden;
+  height: 400px;
+}
+
+.ikonica {
+  color: #b27092;
+  width: 80px;
+  height: 80px;
+  box-shadow: 0 0 0 3px #b27092;
+  transition: 0.5s ease-in-out;
+}
+.ikonica:hover {
+  box-shadow: 0 0 0 300px #b27092;
+  border-radius: 20%;
+}
+
+.ikonica2 {
+  color: #FFAB6B;
+  width: 80px;
+  height: 80px;
+  box-shadow: 0 0 0 3px #FFAB6B;
+  transition: 0.5s ease-in-out;
+}
+.ikonica2:hover {
+  box-shadow: 0 0 0 300px #FFAB6B;
+  border-radius: 20%;
+}
+
+.poz {
+  background: url("../../img/poz1.jpg") !important;
+  background-size: cover !important;
+}
+
+.poz1 {
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+
+.gallery {
+  filter: brightness(0.8);
+}
+.gallery:hover {
+  filter: brightness(1);
+  transform: scale(1.05);
+  transition: 0.3s all;
+  border-radius: 1%;
+}
+
+.accordion-button:focus {
+  box-shadow: 0px 0px 1px #b27092 !important;
+}
+
+input:focus {
+  box-shadow: none !important;
+}
+
+textarea:focus {
+  box-shadow: none !important;
+}/*# sourceMappingURL=style.css.map */
